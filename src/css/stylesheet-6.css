@@ -1,0 +1,271 @@
+@import url(./stylesheet-5.css);
+
+
+@media (min-width:720px) and (max-width:1023px) {
+
+    .container2 {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 2rem;
+        margin: auto 0;
+        justify-content: space-around;
+    }
+
+    .coin {
+        font-size: 4rem;
+        font-family: "gilroy-regular";
+    }
+
+    .form-group .inPerson {
+        position: relative;
+        top: 15px;
+        left: 2px;
+        opacity: 1.0;
+        color: black;
+    }
+
+    .box2 .via {
+        color: grey;
+    }
+
+    .box-content .dollar1 {
+        align-items: center;
+        padding-top: 20px;
+        font-size: 5rem;
+        display: block;
+    }
+
+    .box-content .dollar2 {
+        font-size: 5rem;
+        position: relative;
+    }
+
+    .block .mentoring {
+        font-family: "gilroy-regular";
+    }
+
+    .sections {
+        display: block;
+    }
+
+    .sections .div1 {
+        display: block;
+        margin: auto 0;
+        width: 100%;
+    }
+
+    .sections .div2 {
+        display: block;
+        width: 100%;
+    }
+
+    .faqs {
+        font-family: "gilroy-regular";
+    }
+
+    .box-content .date1 {
+        font-family: "gilroy-regular";
+    }
+
+    .block .faq-head {
+        font-family: "gilroy-regular";
+    }
+
+    .program-view-banner {
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .program-view-banner img {
+        width: 100%;
+    }
+
+    .pitch {
+        font-family: "gilroy-regular";
+        width: 139px;
+        height: 60px;
+        left: 151px;
+        top: 848px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .coin {
+        font-family: "gilroy-regular";
+        width: 266px;
+        height: 96px;
+        left: 151px;
+        top: 914px;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 150%;
+    }
+
+    .content .container {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 30;
+    }
+
+    .text-z {
+        z-index: 1000;
+        color: black;
+        font-size: 18px;
+        font-style: normal;
+        text-align: left;
+        font-family: "gilroy-light";
+        vertical-align: top;
+    }
+
+    .lorem1 {
+        font-family: "gilroy-regular";
+        font-size: 24px;
+        line-height: 36px;
+        display: block;
+        width: 991px;
+        height: 144px
+    }
+
+    .icon-component-text {
+        padding-left: 298px;
+    }
+
+    .block .faqs {
+        width: 903px;
+        height: 900px;
+        left: 191px;
+        top: 3288px;
+        font-family: "gilroy-regular";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .program-view-mentor-profile {
+        border-radius: 6px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .block .faq-head {
+        font-family: "gilroy-regular";
+        width: 505px;
+        height: 60px;
+        font-size: 40px;
+        line-height: 150%;
+        font-weight: 400;
+    }
+
+    .box-content .dollar1 {
+        position: relative;
+        align-items: center;
+        text-align: center;
+        padding-left: 40px;
+        font-size: 132px;
+        font-family: "gilroy-regular";
+        width: 400px;
+        height: 160px;
+    }
+
+    .box-content .dollar2 {
+        font-size: 112px;
+        position: relative;
+        font-family: "gilroy-regular";
+    }
+
+    .box2 .via {
+        font-size: 32px;
+        line-height: 38px;
+        color: grey;
+    }
+
+    .box-green .box1 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-green .box2 {
+        margin: auto 0;
+        display: table;
+        height: 338px;
+        width: 391px;
+        text-align: center;
+    }
+
+    .sections {
+        display: flex;
+        height: 976px;
+    }
+
+    .sections .div1 {
+        margin: auto 0;
+    }
+
+    .sections .div2 {
+        margin: auto 0;
+    }
+
+    .sections .grants {
+        display: table;
+
+        margin: auto 0;
+    }
+
+    .sections .margin1 {
+        margin: auto 0;
+        height: 724px;
+        width: 1px;
+        border-left: 1px solid black;
+        background: linear-gradient(white, black, white);
+    }
+
+    .block .mentoring {
+        margin-bottom: 70px;
+        font-family: "gilroy-regular";
+    }
+
+    .container2 {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 6rem;
+        justify-content: space-around;
+    }
+
+    .applyBtn {
+        display: flex;
+        flex-direction: column;
+        background-color: #407BFF;
+        width: 316px;
+        border-radius: 6px;
+        height: 48px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .applyBtn .applyWhite {
+        color: white;
+    }
+
+    .form-group .inPerson {
+        position: relative;
+        top: 20px;
+        left: 2px;
+        color: black;
+        opacity: 1.0;
+    }
+
+    .bottomApply {
+        margin-bottom: 161px;
+    }
+
+    .box-content .date1 {
+        font-family: "gilroy-regular";
+    }
+}
